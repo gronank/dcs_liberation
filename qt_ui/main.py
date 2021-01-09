@@ -12,7 +12,7 @@ from dcs.weapons_data import weapon_ids
 from PySide2 import QtWidgets
 from PySide2.QtGui import QPixmap
 from PySide2.QtWidgets import QApplication, QSplashScreen
-
+sys.path.append(os.getcwd())
 from game import Game, db, persistency, VERSION
 from game.data.weapons import (
     WEAPON_FALLBACK_MAP,

@@ -21,3 +21,5 @@ logs/
 qt_ui/logs/liberation.log
 
 *.psd
+/fork_env
+/.vs
